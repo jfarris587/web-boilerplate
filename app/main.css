@@ -1,0 +1,39 @@
+/* UTILS */
+.margin-below {
+  margin-bottom: 40px;
+}
+
+.italicized {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.bolded {
+  font-weight: 600 !important;
+}
+
+.bolded.italicized {
+  font-weight: 600 !important;
+  font-style: italic;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=main.css.map */
